@@ -11,3 +11,19 @@ To use the script within After Effects place ```srt2textLayer.jsx``` script file
 Here is the chat and the process of making the script
 
 ![chat](imgs/chat.openai.com.png)
+
+## ⚡ Version 2.0 - AE 2026 Compatibility Fix
+
+**This fork includes a critical fix for After Effects 2026.**
+
+### What was fixed?
+- The original script works perfectly up to AE 2025.
+- On AE 2026, the file browser button stopped working due to changes in Adobe's scripting API.
+- **This version restores full functionality on AE 2026** and improves SRT parsing.
+
+### Credits
+- **Original script**: moziada
+- **AE 2026 fix**: Community contribution
+
+### How to use
+Same as the original. Place `srt2textLayer.jsx` in your AE Scripts folder.
